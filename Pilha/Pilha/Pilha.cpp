@@ -96,12 +96,6 @@ void pop()
 		cout << "Pilha Vazia";
 		return;
 	}
-
-	if(topo->anterior == NULL){
-		free(topo);
-		return;
-	}
-
 	NO*aux = topo;
 	topo = topo->anterior;
 
