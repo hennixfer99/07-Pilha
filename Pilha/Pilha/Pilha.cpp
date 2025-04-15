@@ -86,7 +86,6 @@ void push()
 	cout << "Digite o elemento: ";
 	cin >> novo->valor;
 	novo->anterior = topo;
-
 	topo = novo;
 }
 
@@ -100,8 +99,5 @@ void pop()
 	topo = topo->anterior;
 
 	free(aux);
-
-	topo = aux;
-
 }
 
